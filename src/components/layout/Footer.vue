@@ -22,12 +22,12 @@ const currentVersion = packageJson.version;
       <template v-if="!hideBranding">
         Copyright © {{ currentYear }}
         <a
-        href="https://github.com/imzyb/MiSub"
+        href="https://web.yormb.cn"
         target="_blank"
         rel="noopener noreferrer"
         class="font-semibold text-indigo-600/80 dark:text-indigo-400/80 hover:underline"
       >
-        MiSUB
+        运营程序猿
       </a>.
         All Rights Reserved.
       </template>
