@@ -16,6 +16,6 @@ defineProps({
     <div class="nav-brand-badge nav-brand-badge-sm" aria-hidden="true">
       <img :width="iconSize" :height="iconSize" src="/logo.png" alt="MiSub" />
     </div>
-    <span class="nav-brand-text" :class="textSizeClass">MiSub</span>
+    <span class="nav-brand-text" :class="textSizeClass">易链</span>
   </router-link>
 </template>
