@@ -13,7 +13,7 @@ export const messages = {
       settings: '设置',
       explore: '公开页',
       feedback: '反馈建议',
-      githubRepo: '访问 GitHub 仓库',
+      githubRepo: '访问首页',
       main: '主导航',
       top: '顶部导航栏',
       bottom: '底部主导航'
@@ -84,7 +84,7 @@ export const messages = {
       disabled: '已停用',
       public: '已公开',
       counts: '{subscriptions} 个订阅，{nodes} 个节点',
-      enabledStatus: '启用状态',
+      enabledStatus: '启用状态'，
       enable: '启用',
       publicAccess: '公开访问',
       publicSwitch: '公开',
@@ -98,7 +98,7 @@ export const messages = {
       clashLinkCopied: 'Clash 专用链接已复制！',
       addTitle: '新增订阅组',
       editTitle: '编辑订阅组',
-      modalDescription: '统一管理订阅组基础信息、节点来源和处理规则。',
+      modalDescription: '统一管理订阅组基础信息、节点来源和处理规则。'，
       nameLabel: '订阅组名称',
       namePlaceholder: '例如：家庭共享',
       customIdLabel: '自定义 ID (可选)',
@@ -170,12 +170,12 @@ export const messages = {
       selectAll: '全选',
       deselectAll: '全不选',
       noMatchedSubscriptions: '没有找到匹配的订阅。',
-      selectedDrag: '已选 ({count}) - 拖拽调整顺序',
+      selectedDrag: '已选 ({count}) - 拖拽调整顺序'，
       remove: '移除',
       noAvailableSubscriptions: '没有可用的机场订阅',
       noMatchedNodes: '没有找到匹配的节点。',
       noAvailableNodes: '没有可用的手动节点'
-    },
+    }，
     manualNodes: {
       title: '手动节点',
       unnamed: '未命名节点',
@@ -195,7 +195,7 @@ export const messages = {
       pinging: '测速中',
       unreachable: '不通',
       sortedByRegion: '已按地区排序，请手动保存',
-      noDuplicates: '没有发现重复的节点。',
+      noDuplicates: '没有发现重复的节点。'，
       groupRenamed: '分组 "{oldName}" 已重命名为 "{newName}"',
       groupDeleted: '已删除分组 "{groupName}"',
       groupOrderUpdated: '分组顺序已更新',
@@ -2316,7 +2316,7 @@ export const messages = {
       schemaCopied: 'SQL script copied to clipboard',
       copyFailedManual: 'Copy failed. Please copy the file content manually.',
       externalApiTitle: 'External management API',
-      externalApiDesc: 'Expose controlled APIs for third-party systems to manage subscriptions, manual nodes, and profiles.',
+      externalApiDesc: 'Expose controlled APIs for third-party systems to manage subscriptions, manual nodes, 和 profiles.',
       externalApiHint: 'When enabled, clients can access /api/ext/v1 with a Bearer token. Use a strong random token and share it only with trusted systems.',
       externalApiPathHint: 'Current endpoint prefix: /api/ext/v1',
       externalApiTokenName: 'Token name',
@@ -2353,7 +2353,7 @@ export const messages = {
       actions: 'Actions',
       description: 'Description',
       created: 'Created',
-      updated: 'Updated',
+      更新于: 'Updated',
       firstPage: 'First',
       prevPage: 'Prev',
       previousPage: 'Previous',
